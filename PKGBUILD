@@ -2,14 +2,14 @@
 
 pkgname=tre-boot-git
 pkgver=1.4.0.r18.01f4aaa
-pkgrel=1
+pkgrel=2
 pkgdesc="Serve webapps via ssb-ws http server"
 arch=('any')
 url=""
-license=('GPL')
+license=('AGPLv3')
 groups=()
 depends=('scuttlebot')
-depends=('ssb-revisions')
+depends=('ssb-revisions-git')
 makedepends=('git' 'npm')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
