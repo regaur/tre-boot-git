@@ -1,8 +1,8 @@
 # Maintainer: Jan Boelsche <jan@lagomorph.de>
 
 pkgname=tre-boot-git
-pkgver=1.4.0.r18.01f4aaa
-pkgrel=2
+pkgver=1.8.0.r26.c4d9315
+pkgrel=1
 pkgdesc="Serve webapps via ssb-ws http server"
 arch=('any')
 url=""
